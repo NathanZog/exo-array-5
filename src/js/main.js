@@ -20,7 +20,7 @@ console.log(tabExo)
 
 // exo 5
 
-tabExo.splice(0,0,"Hello", "Je m'appelle Nathan")
+tabExo.push("Hello", "Je m'appelle Nathan")
 
 // exo 6
 
@@ -31,16 +31,17 @@ tabExo.unshift("Du Lundi au lundi","Gucci et Fendi","On a les yebi")
 console.log(tabExo.reverse())
 
 // exo 8
-let objet1 = "sockettes"
-let boxFanny = [objet1,objet1]
-//alert(boxFanny)
-boxFanny.unshift("creme solaire")
-boxFanny.push("t-shirt","jean","pull")
-//alert(boxFanny)
-boxFanny.splice(0,3)
-boxFanny.push("brosse a dents")
-//alert(boxFanny.length)
-boxFanny.splice(2,4)
-//alert(boxFanny)
-boxFanny.splice(0,2)
-alert(boxFanny)
+let boxFanny = [];
+boxFanny.push("crabe");
+boxFanny.push("aquraium");
+alert(boxFanny);
+boxFanny.unshift("creme solaire");
+boxFanny.push("t-shirt","jean","pull");
+alert(boxFanny);
+boxFanny.splice(0,3);
+boxFanny.push("brosse a dents");
+alert(boxFanny.length);
+boxFanny.splice(2,4);
+alert(boxFanny);
+boxFanny.splice(0,2);
+alert(boxFanny);
